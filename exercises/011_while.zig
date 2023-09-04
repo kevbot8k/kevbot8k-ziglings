@@ -19,9 +19,10 @@ const std = @import("std");
 
 pub fn main() void {
     var n: u32 = 2;
+    const max: u32 = 1024;
 
     // Please use a condition that is true UNTIL "n" reaches 1024:
-    while (???) {
+    while (n < max) {
         // Print the current number
         std.debug.print("{} ", .{n});
 
